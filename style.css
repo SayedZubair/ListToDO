@@ -1,0 +1,75 @@
+body {
+
+    background-color: #f9fafb;
+}
+
+
+.date {
+
+    border: 1px solid;
+    position: relative;
+    display: inline;
+    border: none;
+
+}
+
+.date input {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    border: none;
+    outline: 0;
+    background-color: black;
+}
+
+.date img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: -1;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 60px;
+    align-items: center;
+}
+
+h1 input {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.father {
+
+    display: flex;
+    text-align: center;
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    padding-right: 10px;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 6px #00000000;
+    border-radius: 6px;
+}
+
+#text {
+    width: 90%;
+    height: 50px;
+    margin: 0;
+    outline: 0;
+    border: none;
+    padding-left: 10px;
+}
+
+.btnContainer {
+
+    background-color: transparent;
+}
