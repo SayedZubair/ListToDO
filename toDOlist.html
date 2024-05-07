@@ -10,7 +10,7 @@
 <body>
 
     <h1>
-        <input type="checkbox" checked>
+        <input id="firstcheckbox" type="checkbox" checked value="true">
         My ToDo List
     </h1>
 
@@ -22,13 +22,32 @@
 
             <div class="date">
                 <img src="Screenshot 2024-04-13 115900.png" alt="calender">
-                <input type="date">
+                <input type="date" id="datePicker">
             </div>
             <button id="btn"> add </button>
 
         </div>
     </div>
 
+    <hr id="line">
+    <div id="TextContianer">
+
+    </div>
+
+
+    <div id="backdrop">
+        <div class="modal">
+            <p>Are You Sure You want to delete</p>
+            <button id="yesbtn">Yes</button>
+            <button onclick="hidebackdrop()">No</button>
+        </div>
+
+    </div>
+
+    <div id="deletemsg">
+        <p>your note has been successfully deleted</p>
+    </div>
+    <script src="scrpt.js"></script>
 </body>
 
 </html>
